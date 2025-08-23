@@ -1,6 +1,6 @@
 // components/SocialIcons.jsx
 import React from "react";
-import x from "../../assets/icons/x.svg";
+import x from "../../assets/icons/X.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
 import github from "../../assets/icons/github.svg";
 const socialMediaLinks = [
