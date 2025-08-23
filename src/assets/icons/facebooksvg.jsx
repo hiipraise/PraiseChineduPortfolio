@@ -1,0 +1,35 @@
+import React from "react";
+
+const FacebookSvg = () => {
+  return (
+    <svg
+      width="50"
+      height="50"
+      viewBox="0 0 90 90"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
+      <rect width="90" height="90" fill="url(#pattern0_1_202)" />
+      <defs>
+        <pattern
+          id="pattern0_1_202"
+          patternContentUnits="objectBoundingBox"
+          width="1"
+          height="1"
+        >
+          <use xlinkHref="#image0_1_202" transform="scale(0.0111111)" />
+        </pattern>
+        <image
+          id="image0_1_202"
+          width="90"
+          height="90"
+          preserveAspectRatio="none"
+          xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABsUlEQVR4nO3YoaoUcRjG4T8iVgWT4Zj0AgxegOcKTFbbFi9BMBpOsZksNptROXgJ4uFgEVGLGEUQVAz6yGERFkFh1pmd/3y8T97wzY+XZZjWIiIiIiIiYjw4ixu4h2c4xnt8sfYJH/EWr/EcT/AAN0c8pSZcxSN8t72ncz9H7wt+iJ//ETih/wWX8GaEwAn9N7iID8aVv45NOIOjkSMn9J9wZ4LICb0J5/E5oSeG2xNFzqI34VVCTwyXJ4ycRf+GVULvAO5vGfoQ13Hh5NVwF7cumvVHoqHuzn334uDFwMgnvz81992Lg3cDQ9+a++ZFsv6WPMSVuW9eJPwYGPrc3DcvkuFOz33zIhlo7nsXS0IndCmy6ISu9hYxtYNWkf6sWkX6c61VpD97rSJ9+Vr2S5++vGxV6cvjVpW+HLSq9GXVqtKX/VaVvuy1qvTjW9lXu20YaO57F0tCJ3QpsuiELkUWndClyKITuhRZdEKXIotO6FJk0Qldiiw6oUuRRSd0KbLohC5FFp3QpciiE7oUWXRClyKLTuhSZNEJXYosOqFLkUUndCmy6IiIiIiIiLZTvwA1C/tyHE7zlwAAAABJRU5ErkJggg=="
+        />
+      </defs>
+    </svg>
+  );
+};
+
+export default FacebookSvg;
