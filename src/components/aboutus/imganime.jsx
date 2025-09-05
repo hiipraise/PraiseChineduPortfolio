@@ -7,7 +7,7 @@ import image4 from "../../assets/images/aboutimg4.jpg";
 
 const Box = ({ imageUrl }) => (
   <div className="relative w-32 h-48 overflow-hidden rounded-md">
-    <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-[#A3E2BB] to-[#EEEEFF] clip-slant bg-transparent">
+    <div className="absolute inset-0 p-[2px] bg-gradient-to-br from-[#A3E2BB] to-[#fbfada] clip-slant bg-transparent">
         <img
           src={imageUrl}
           alt=""
@@ -20,7 +20,7 @@ const Box = ({ imageUrl }) => (
 const ImgAnime = () => {
   return (
     <div className="flex items-center justify-center px-4 py-8">
-      <div className="flex flex-row items-center justify-center gap-6 sm:gap-14">
+      <div className="flex flex-row items-center justify-center gap-6 sm:gap-10">
         {/* Left Column: animates from top */}
         <motion.div
           className="space-y-6 sm:space-y-7"

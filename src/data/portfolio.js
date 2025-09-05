@@ -2,9 +2,9 @@ import DollarSignSvg from "../assets/icons/dollarsign";
 import PuzzlePieceSvg from "../assets/icons/puzzlepiece";
 import SparkleSvg from "../assets/icons/sparklesvg";
 import TrustShieldSvg from "../assets/icons/trustshield";
-import imgcarousel1 from "../assets/images/imgcarousel1.jpg";
+import imgcarousel1 from "../assets/images/OgaPolls.png";
 import imgcarousel2 from "../assets/images/storytrennd.png";
-import imgcarousel3 from "../assets/images/imgcarousel3.jpg";
+import imgcarousel3 from "../assets/images/tk_v2.png";
 
 export const itsolutionsData = [
   {
@@ -40,23 +40,26 @@ export const itsolutionsData = [
 export const cardsData = [
   {
     id: 1,
-    title: "The Real-World Impact of AI: Beyond the Buzzwords",
+    title: "OgaPolls",
     description:
-      "AI isn’t just a trend—it’s transforming how industries operate. From predictive maintenance in manufacturing to personalized learning in EdTech, here are some real applications we’ve built and why AI matters more than ever for enterprise innovation.",
+      "Built a survey platform to collect and analyze user feedback, implementing dynamic forms and real-time data visualization to streamline decision-making processes for businesses and individuals.",
     imageDescription: imgcarousel1,
+    link: "https://www.ogapolls.name.ng",
   },
   {
     id: 2,
     title: "StoryTrennd",
     description:
-      "In an era where speed often takes precedence over sustainability, it's easy to overlook the value of a well-defined process. Yet, when it comes to building complex technology—whether it's software, embedded systems, or AI-powered IoT platforms—a process-driven approach isn't just beneficial, it's essential. At STALWART, we’ve seen firsthand how a structured methodology transforms outcomes. Here’s why process matters—and why it should matter to you.",
+      "Developed a full-stack storytelling platform enabling users to create, share, and illustrate stories with AI-generated visuals, enhancing user engagement through interactive features like comment replies and notifications.",
     imageDescription: imgcarousel2,
+    link: "https://www.storytrennd.name.ng",
   },
   {
     id: 3,
-    title: "ApexInvest",
+    title: "TarnKapital",
     description:
-      "IoT success isn’t just about sensors—it’s about reliability, data flow, and scalability. We break down the key elements of successful IoT architecture based on real client projects, including edge processing, data security, and OTA updates.",
+      "Designed a full-stack investment platform with an admin dashboard for managing users and transactions, incorporating JWT authentication and responsive UI to empower clients with secure financial tools.",
     imageDescription: imgcarousel3,
+    link: "https://.vercel.app",
   },
 ];

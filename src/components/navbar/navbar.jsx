@@ -138,11 +138,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center relative">
         <div className="z-10 flex flex-col items-center">
           <span
-            className={`font-semibold text-xl border-2 border-[#fbfada] rounded-md px-2 ${
-              scrolled ? "text-[#adbc9f]" : "text-[#fbfada]"
+            className={`font-semibold text-xl ${
+              scrolled ? "text-[#fbfada]" : "text-[#fbfada]"
             }`}
           >
-            P⚡C
+            Praise⚡Chinedu
           </span>
         </div>
 

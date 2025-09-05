@@ -3,8 +3,8 @@ import ArrowRight from "../../assets/icons/ArrowRight";
 import ArrowRight2 from "../../assets/icons/ArrowRight2";
 
 const Buttons = () => {
-  const phoneNumber = "08150355751";
-  const emailAddress = "info.stalwartech@gmail.com";
+  const phoneNumber = "07059053757";
+  const emailAddress = "info.praisechinedu@gmail.com";
 
   return (
     <div className="flex gap-[3vmin] items-center justify-center flex-1">

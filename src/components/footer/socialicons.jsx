@@ -1,30 +1,8 @@
 // components/SocialIcons.jsx
 import React from "react";
-import x from "../../assets/icons/X.svg";
-import linkedin from "../../assets/icons/linkedin.svg";
-import github from "../../assets/icons/github.svg";
-const socialMediaLinks = [
-  {
-    name: "Linkedin",
-    icon: linkedin,
-    alt: "Linkedin logo",
-    link: "https://www.linkedin.com/in/praisechinedu30",
-  },
-  {
-    name: "GitHub",
-    icon: github,
-    alt: "GitHub logo",
-    link: "https://www.github.com/hiipraise",
-  },
-  {
-    name: "x",
-    icon: x,
-    alt: "X logo",
-    link: "https://x.com/hiiipraise",
-  },
-];
+import { socialMediaLinks } from "../../data/socials";
 
-const SocialIcon = ({ icon, alt, link }) => {
+const SocialIcon = ({ icon: Icon, alt, link, color }) => {
   return (
     <a
       href={link}
@@ -32,12 +10,14 @@ const SocialIcon = ({ icon, alt, link }) => {
       rel="noopener noreferrer"
       className="flex justify-center items-center border-2 border-[#A3E2BB1A] rounded-md w-8 h-8 bg-gradient-to-b from-[#29623F24] to-[#19192B] hover:-translate-y-1 hover:transition-all cursor-pointer"
     >
-      <img src={icon} alt={alt} className="w-6 h-6" />
+      <Icon className="w-6 h-6" color={color} />
     </a>
   );
 };
 
 const SocialIcons = () => {
+  const iconColor = "#fbfada";
+
   return (
     <div className="flex gap-[1.5vmin]">
       {socialMediaLinks.map((social) => (
@@ -46,6 +26,7 @@ const SocialIcons = () => {
           icon={social.icon}
           alt={social.alt}
           link={social.link}
+          color={iconColor} // Pass the color prop
         />
       ))}
     </div>

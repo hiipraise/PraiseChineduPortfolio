@@ -30,7 +30,7 @@ const Card = ({ card, style }) => (
     }}
   >
     <div
-      className="w-full flex items-center justify-center border border-[#436850] overflow-hidden clip-slant mb-4"
+      className="w-full flex items-center justify-center  overflow-hidden clip-slant mb-4"
       style={{ height: IMAGE_HEIGHT }}
     >
       <img
@@ -39,14 +39,14 @@ const Card = ({ card, style }) => (
         className="w-full h-full object-cover"
       />
     </div>
-    <h2 className="text-xl md:text-2xl font-bold mb-3 text-[#fbfada]">
+    <h2 className="text-base md:text-2xl font-bold mb-3 text-[#fbfada]">
       {card.title}
     </h2>
-    <p className="text-sm md:text-base text-gray-300 overflow-hidden line-clamp-[8]">
+    <p className="text-sm  text-gray-300 overflow-hidden line-clamp-[8]">
       {card.description}
     </p>
     <a
-      href="https://www.storytrennd.name.ng"
+      href={card.link}
       target="_blank"
       className="text-[#A3E2BB] flex justify-end mt-4 hover:underline"
     >

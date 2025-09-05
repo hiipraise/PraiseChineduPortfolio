@@ -62,11 +62,11 @@ const CountAnime = () => {
       {items.map((item, idx) => (
         <div
           key={idx}
-          className={`text-center px-2 md:border-l md:border-[#eeeeff] ${
+          className={`text-center px-2 md:border-l md:border-[#fbfada] ${
             idx === 0 ? "md:border-none" : ""
           }`}
         >
-          <p className="text-[#eeeeff] text-3xl md:text-4xl font-semibold font-orbitron">
+          <p className="text-[#fbfada] text-3xl md:text-4xl font-semibold font-orbitron">
             <Counter
               to={item.to}
               suffix={item.suffix}
@@ -74,7 +74,7 @@ const CountAnime = () => {
               start={inView}
             />
           </p>
-          <p className="text-[#9C9C9C] text-sm md:text-base mt-2">
+          <p className="text-[#fbfada] text-sm md:text-base mt-2">
             {item.label}
           </p>
         </div>

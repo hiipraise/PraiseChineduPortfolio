@@ -45,55 +45,58 @@ const Home = () => {
         </div>
 
         <div id="company" className="p-[5vw] space-y-7">
-          {" "}
           <AboutUs />
         </div>
         <MainItsolutions />
 
         <div id="services" className="">
-          {" "}
-          <div className="bg-[rgba(25,25,43,20%)] w-full overflow-hidden space-y-14 backdrop-blur-2xl p-[5vw]">
+          <div className="w-full overflow-hidden space-y-14 backdrop-blur-2xl p-[5vw]">
             <HeadersSection
               headingText="Services"
-              paragraphText="Explore the range of services I offer to help you achieve your digital goals."
+              paragraphText="From idea to deployment, I offer comprehensive full-stack and mobile development services to bring your vision to life."
             />
 
             <div className="space-y-5">
               <Services
                 number={"01"}
-                title={"Comprehensive Web Development Solutions"}
+                title={"Full-Stack Web & Mobile Development"}
                 description={
-                  "From dynamic websites to complex web applications, I create solutions that are not only visually appealing but also highly functional and scalable."
+                  "I build end-to-end solutions, integrating robust back-end systems with intuitive front-end and mobile interfaces. I specialize in React and React Native."
                 }
                 openAccordion={openAccordion}
                 setOpenAccordion={setOpenAccordion}
               />
+
               <Services
                 number={"02"}
-                title={"Expertise Services in Mobile App Development"}
+                title={"API & Backend Development"}
                 description={
-                  "Native and cross-platform mobile applications that deliver exceptional user experience across iOS and Android devices."
+                  "Creating scalable and secure APIs to power your web and mobile applications, ensuring seamless data flow and functionality."
                 }
                 openAccordion={openAccordion}
                 setOpenAccordion={setOpenAccordion}
               />
+
               <Services
                 number={"03"}
-                title={"API and Backend Development"}
+                title={"Maintenance & Technical Support"}
                 description={
-                  "Robust backend solutions and APIs that ensure seamless data flow and integration, enhancing the functionality of your applications."
+                  "Offering ongoing support, monitoring, and updates to keep your applications running smoothly and securely long after launch."
                 }
                 openAccordion={openAccordion}
                 setOpenAccordion={setOpenAccordion}
               />
             </div>
+
             <div className="text-center space-y-4">
               <div>
-                <p className="font-orbitron font-bold text-lg text-[#EEEEFF]">
-                  Ready to take your project to the next level?
+                <p className="font-orbitron font-semibold text-lg text-[#fbfada]">
+                  Ready to get started on your next project?
                 </p>
-                <p className="text-[#EEEEFF] text-base">
-                  Let's discuss how I can help you achieve your goals.
+
+                <p className="text-[#fbfada] text-base">
+                  Let's discuss how my full-stack and mobile expertise can help
+                  you achieve your goals.
                 </p>
               </div>
               <Buttons />
@@ -106,7 +109,6 @@ const Home = () => {
         </div>
 
         <div id="contact-us" className="p-[5vw] space-y-7 my-[3vw]">
-          {" "}
           <ContactForm />
         </div>
       </div>

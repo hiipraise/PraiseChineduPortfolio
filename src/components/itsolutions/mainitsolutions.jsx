@@ -10,7 +10,7 @@ const MainItsolutions = () => {
         headingText="IT Solutions"
         paragraphText="IT Solutions Tailored for Your Business Needs"
       />
-      <div className="flex w-full z-40 items-center justify-center">
+      <div className="flex w-full z-40 items-center justify-center ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-5 lg:gap-2">
           {itsolutionsData.map((product) => (
             <div key={product.id}>

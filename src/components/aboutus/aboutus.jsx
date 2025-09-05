@@ -8,8 +8,8 @@ const AboutUs = () => {
   return (
     <div className="bg-[rgba(25,25,43,20%)] w-full overflow-hidden p-8 space-y-14 backdrop-blur-2xl">
       <HeadersSection
-        headingText="About"
-        paragraphText="build for innovation: driven by process"
+        headingText="About Me"
+        paragraphText="Discover my journey, values, and the methodology that drives my passion for full-stack development."
       />
       <div className="flex flex-wrap lg:flex-nowrap gap-16 items-center justify-center">
         <div>
@@ -17,50 +17,47 @@ const AboutUs = () => {
         </div>
         <div className="space-y-14">
           <div className="space-y-5">
-            <p className="capitalize font-bold text-white text-lg font-orbitron">
-              our core value
+            <p className="capitalize font-bold text-[#fbfada] text-lg font-orbitron">
+              Core value
             </p>
-            <p className="text-base text-[rgba(255,255,255,85%)] font-semibold">
-              We don’t just build tech—we build trust, impact, and long-term
-              partnerships. Our work is guided by principles that ensure
-              quality, transparency, and innovation at every step:
+            <p className="text-sm text-[rgba(251,250,218,85%)]">
+              The projects I take on are built on a solid foundation of trust
+              and a passion for innovation. My full-stack development process
+              combines a methodical, disciplined back-end approach with a
+              creative, user-focused front-end perspective. This allows me to
+              create integrated, cohesive applications that are as powerful
+              under the hood as they are beautiful on the screen.
             </p>
-            <ul className="text-[rgba(255,255,255,0.85)] list-disc list-inside text-sm">
+            <ul className="text-[rgba(251,250,218,85%)] list-disc list-inside text-sm">
               <li>
-                Healthcare & MedTech - Energy & Utilities - Automotive &
-                Mobility - Consumer Electronics - Manufacturing & Industrial
-                Automation - Agriculture & AgriTech
+                Trust & Transparency: I build reliable applications and maintain
+                clear communication throughout the development process.
               </li>
-              <li> Logistics & Transportation</li>
-              <li>Retail & E-commerce</li>
-              <li> Finance & FinTech</li>
-              <li> EdTech & Learning Platforms</li>
+              <li>
+                Innovation & Impact: I am committed to creating solutions that
+                not only work but also solve real-world problems and drive
+                meaningful results.
+              </li>
+              <li>
+                Scalability & Efficiency: My goal is to build future-proof
+                systems that are optimized for performance and can grow with the
+                needs of the user.
+              </li>
             </ul>
           </div>
           <div className="space-y-5">
-            <p className="capitalize font-bold text-white text-lg font-orbitron">
-              our methodology
+            <p className="capitalize font-bold text-[#fbfada] text-lg font-orbitron">
+              Methodology
             </p>
-            <p className="text-base text-[rgba(255,255,255,85%)] font-semibold">
-              Our methodology is more than a workflow—it's a mindset. By
-              blending engineering rigor, design thinking, and cutting-edge
-              innovation, we create solutions that are not just technically
-              sound, but future-proof, scalable, and human-centric. We work
-              across a diverse range of industries, solving real-world
-              challenges with customized technology solutions:
+            <p className="text-sm text-[rgba(251,250,218,85%)]">
+              My methodology is a blend of agile development, design thinking,
+              and best-in-class coding practices. I specialize in creating
+              customized technology solutions that are technically sound and
+              scalable. Whether it's building a new e-commerce platform,
+              developing an EdTech solution, or creating a new FinTech
+              application, I focus on delivering excellence at every layer of
+              the stack.
             </p>
-            <ul className="text-[rgba(255,255,255,0.85)] list-disc list-inside text-sm">
-              <li> Healthcare & MedTech </li>
-              <li> Energy & Utilities</li>
-              <li> Automotive & Mobility</li>
-              <li> Consumer Electronics</li>
-              <li> Manufacturing & Industrial Automation</li>
-              <li> Agriculture & AgriTech</li>
-              <li> Logistics & Transportation</li>
-              <li> Retail & E-commerce</li>
-              <li> Finance & FinTech</li>
-              <li> EdTech & Learning Platforms</li>
-            </ul>
           </div>
         </div>
       </div>
